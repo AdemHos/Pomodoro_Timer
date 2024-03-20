@@ -1,0 +1,128 @@
+:root {
+     --bg-color:#fff;
+    --text-color:#2c3e50;   
+
+  
+    
+
+
+}
+
+* {
+    transition: 0.2s ease;
+}
+
+.dark {
+    --bg-color:#2c3e50;
+  --text-color:#fff;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.timer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+    ;
+}
+
+
+.timer-wrapper .timer {
+    font-size: 30px;
+    color: var(--text-color);
+    
+}
+.timer-wrapper i {
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.button-container {
+    margin-right: 30px;
+    padding: 10px 20px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
+.btn-green {
+    background-color: green;
+    color: #fff;
+}
+
+
+.btn-red {
+    background-color: red;
+    color: #fff;
+}
+
+.btn-yellow {
+    background-color: yellow;
+    color: #fff;
+}
+
+.switcher-container {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.switcher-container button {
+    padding:8px 16px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color) ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.switcher-container button i {
+    font-size: 18px;
+}
+
+.switcher-container button:hover {
+    opacity: 0.8;
+    
+}
+
+
+
+
+
